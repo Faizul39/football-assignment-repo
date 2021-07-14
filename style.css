@@ -152,7 +152,73 @@ h1{
     height: 10px;
     text-align: center;
 }
+/*--Card End--*/
 
+/*--Footer Start--*/
+
+section  .footer{
+    height: 250px;
+    margin-top: 900px;
+}
+
+.footer{
+    padding-bottom: 100px;
+    height: 700px;
+    background-color:white;
+    margin-left: 9%;
+    padding-left: 0% ;
+    position:initial;
+    width: 1000px;
+    left: 70px;
+    top:85px;
+}
+
+.footer-width img{
+    margin-left: 9%;
+    padding-left: 0% ;
+    position:relative;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 500px;
+    height: 350px;
+    left: 500px;
+    bottom:400px;
+}
+
+
+.footer-banner img{
+    padding-left: 10% ;
+    position: relative;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 500px;
+    height: 300px;
+}
+
+.footer h1{
+    width: 485px;
+    height: 600px;
+    top: 230px;
+    margin-left: 1%;
+    padding-left: 1% ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:700;
+    font-size: 50px;
+    color:black;
+    line-height: 80px;
+}
+/*--Footer End--*/
+/*--Media Query--*/
+@media only screen and (max-width:668), (min-width:688) and (max-width:992) {
+    .section{
+        flex-direction: column;
+    }
+    .container{
+        width: 100%;
+    }
+    .footer{
+        flex-direction: column;
+    }
+}
 
 
 
